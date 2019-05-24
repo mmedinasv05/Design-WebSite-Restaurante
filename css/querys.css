@@ -1,0 +1,67 @@
+@media (max-width:500px){
+    .container-fluid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .containerSlide{
+        width: 100%;
+        height: 225px;
+        background-color: red;
+    }
+    .itemIcon{
+        width: 100%;
+        height: 200px;
+        margin: 5px 0 !important;
+    }
+    .containerAboutMe{
+        width: 100%;
+        height: 400px;
+    }
+    .px-6{
+        padding: 0 1.5rem !important;
+    }
+    .containerOthers{
+        width: 100%;
+        height: 150px;
+        flex-direction: column;
+    }
+    .containerContent{
+        width: 100%;
+        height: auto;
+        background-image: url(../img/fondo2.png);
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .promotions,
+    .saurcers,
+    .office{
+        width: 90%;
+        height: 210px;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        margin: 30px 0;
+    }
+    .containerFooter{
+        width: 100%;
+        height: 200px;
+        background-color: #000000;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .subFooter{
+        width: 100%;
+        height: 200px;
+        background-color: #000000;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+}
+
